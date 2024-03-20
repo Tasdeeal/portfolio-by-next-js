@@ -72,15 +72,15 @@ const aboutData = [
     ],
   },
   {
-    title: 'credentials',
+    title: 'Education',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'BSc in Computer Science - University Kebangsaan Malaysia',
+        stage: '2022',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
+        title: 'BSc in Information Technology & Management - Daffodil International University',
+        stage: '2024',
       },
       {
         title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
@@ -112,7 +112,7 @@ const About = () => {
    initial= 'hidden'
    animate= 'show'
    exit='hidden'
-   className='hidden xl:flex absolute bottom-0 -left-[370px]'
+   className='hidden xl:flex absolute bottom-0 -left-[325px]'
    >
     <Avatar/>
    </motion.div>
